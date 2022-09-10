@@ -26,7 +26,9 @@ function App() {
 				};
 			} else {
 				return {
-					email: newValue
+					email: newValue,
+					lName: prevValue.lName,
+					fName: prevValue.fName,
 				};
 			}
 		});
